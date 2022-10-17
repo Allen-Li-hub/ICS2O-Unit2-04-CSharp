@@ -1,7 +1,7 @@
 // Created by: Allen
 // Created on: Oct 2022
 //
-// This program calculates area and perimeter of a triangle
+// This program calculates area of a triangle
 
 using System;
 
@@ -12,7 +12,7 @@ class Program {
         int heightOfTriangle;
         int areaOfTriangle;
 
-        Console.WriteLine("This program calculates the area and perimeter of a triangle.");
+        Console.WriteLine("This program calculates the area of a triangle.");
         Console.WriteLine("");
 
         Console.Write("Enter the base (cm): ");
