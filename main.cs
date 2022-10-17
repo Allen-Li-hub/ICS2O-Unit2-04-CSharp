@@ -5,8 +5,10 @@
 
 using System;
 
-class Program {
-    public static void Main (string[] args) {
+class Program 
+{
+    public static void Main (string[] args) 
+    {
         // This function accepts user input
         int baseOfTriangle;
         int heightOfTriangle;
@@ -21,7 +23,7 @@ class Program {
         heightOfTriangle = Convert.ToInt32(Console.ReadLine());
 
         areaOfTriangle = (baseOfTriangle * heightOfTriangle) / 2;
-       
+
         Console.WriteLine("");
         Console.WriteLine("The area is: " + areaOfTriangle + " cm². ");
 
